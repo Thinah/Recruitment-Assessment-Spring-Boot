@@ -39,8 +39,4 @@ public class InvoiceServiceImpl implements InvoiceService {
         return (invoice != null) ? invoice : null;
     }
 
-    @Override
-    public BigDecimal calculateInvoiceTotal(Invoice invoice) {
-        return invoice.getTotal();
-    }
 }
