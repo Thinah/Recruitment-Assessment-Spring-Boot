@@ -1,13 +1,10 @@
 package za.co.digitalplatoon.digitalplatooninvoicersassessment.services;
 
-import lombok.NoArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import za.co.digitalplatoon.digitalplatooninvoicersassessment.dao.InvoiceRepository;
 import za.co.digitalplatoon.digitalplatooninvoicersassessment.entities.Invoice;
 
 import javax.transaction.Transactional;
-import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 

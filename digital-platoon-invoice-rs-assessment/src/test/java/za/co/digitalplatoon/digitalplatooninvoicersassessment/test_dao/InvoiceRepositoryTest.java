@@ -60,7 +60,7 @@ public class InvoiceRepositoryTest {
         assertThat(invoices.size()).isGreaterThan(0);
     }
 
-    private Invoice getInvoice() {
+    public static Invoice getInvoice() {
         Invoice invoice = new Invoice();
         invoice.setClient("Momentum");
         invoice.setVatRate((long) 15.00);
